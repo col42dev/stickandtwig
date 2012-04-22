@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB">
+
+
+
+<head>
+	<title>STIK AND TWIG</title>
+	
+
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+	<meta name="description" content="iPad CSS Layout with Landscape/Portrait Orientations (Demo)" />
+	<meta name="keywords" content="iPad CSS Layout with Landscape/Portrait Orientations (Demo)" />
+	<meta name="robots" content="index, follow" />
+	<meta name="viewport" content="width=768px, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<link rel="stylesheet" type="text/css" href="ipad.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="base.css" />
+	<link rel="apple-touch-icon-precomposed"      href="./images/apple-touch-icon-precomposed.png" />
+</head>
+
+<script type="text/javascript">
+
+    function fullscreen() {
+    	
+        var a = document.getElementsByTagName("a");
+        for (var i = 0; i < a.length;i++) {
+            if (a[i].className.match("noeffect")) {
+                // Does nothing
+            }
+            else {
+                a[i].onclick = function () {
+                    window.location = this.getAttribute("href");
+                    return false;
+                };
+            }
+        }
+    }
+    
+    window.onload = fullscreen;
+    
+</script>
+
+
+<body>
+
+<div id="wrap">
+	<div id="header">
+		<br/>
+		<p>&laquo; <a href="http:/www.google.com"></a> by <a href="http://google.com">Conor, Ruairi & Colin</a></p>
+		<h1 style="background-color:black;font-family:verdana;color:red;font-size:35px;">STIK AND TWIG</h1>
+		<p>Official Magazine</p>
+	</div>
+	<div id="content">
+		<div id="main">
+			<!-- Main content start -->
+			<img src="images/frontpage.jpg" width="1024" height="768" alt="iPad portrait/landscape layout dimensions" />
+			<h2>INSIDE:</h2>
+			<p>New Codes, Future Releases</p>
+			<h2>NEW RELEASE:</h2>
+			<p>ALLIANCE MAPS.</p>
+			<h2>NEW ALLIANCE MAPS:</h2>
+			<img src="images/burningman.jpg" width="300" height="300" alt="iPad layout structural divs" class="r" />
+			<p>Black Out!</p><br/>
+			<p>Rainbow Land.</p><br/>
+			<p>Firefly.</p><br/>
+			<!-- Main content end -->
+		</div>
+		<div id="side">
+			<div id="sidea">
+				<!-- Side A content start -->
+				<h6><a href="http://www.abutoo.co.uk/stikandtwig/newgame.html">New Game</a></h6>
+				<p>Hi Twig here, We want you to know about a new game called <strong>Prophecy</strong>.</p>
+				<br/>
+				<h5>Weapons</h5>
+				<p>Hey, Dark Stik here. Just want to tell you about the new weapons that are coming out! (In the shops right now!) </p>
+				<br/>	
+				<!-- Side A content end -->
+			</div>
+			<div id="sideb">
+				<!-- Side B content start -->
+				<h6>Cheat Codes 2</h6>
+				<p>This is one of Stiks favorites.</p>
+				<br/>
+				<a href="http://www.abutoo.co.uk/stikandtwig/newchallenges.html"><h5>New Challenges</h5></a>
+				<p>Rewards, trophies and achievements</p>
+				<br/>
+					
+				<!-- Side B content end -->
+			</div>
+			<div id="sidec">
+				<!-- Side C content start -->
+				<h6>Moderators</h6>
+				<p>Become a moderator like me - Yeah right, like i'm going to tell you that!</p>
+				<br/>
+				<a href="http://www.abutoo.co.uk/stikandtwig/intro.html"><h5>Intro</h5></a>
+				<p>Start here</p>
+				<br/>
+		
+				<!-- Side C content end -->
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<p>All rights reserved.<a href="google.com"></a></p>
+	</div>
+</div>
+
+</body>
+</html>
+
