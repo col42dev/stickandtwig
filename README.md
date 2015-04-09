@@ -4,7 +4,7 @@ Magazine web app using HTML & javascript made to look like a native iOS app. Lan
 
 Reference: http://matthewjamestaylor.com/demos/ipad-css-layout/
 
-Misc:
+## Misc
 
 html meta tags:
 "apple-mobile-web-app-capable" for fullscreen mode.
@@ -13,3 +13,7 @@ html meta tags:
 html link rel="apple-touch-icon-precomposed"
 
 JS: event.preventDefault() is used to block ontouchmove event.
+
+# Hosted App
+
+[Stick & Twig](http://ec2-54-201-237-107.us-west-2.compute.amazonaws.com/stickandtwig/magazine.html)
